@@ -1,0 +1,40 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "nav header header"
+      "nav article ads"
+      "footer footer ads";
+    grid-template-rows: 100px 1fr 100px;  
+    grid-template-columns: 30% 1fr 30%;
+    height: 100vh;
+    margin: 0;
+    
+    }  
+  header, footer, article, nav, div {
+    padding: 1.2em;
+    background: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  #pageHeader {
+    background-color: #87CEEB;
+    grid-area: header;
+    }
+  #pageFooter {
+    background-color: #F0E68C;
+    grid-area: footer;
+    }
+  #mainArticle { 
+    background-color: #FFFFE0;
+    grid-area: article;      
+    }
+  #mainNav { 
+    background-color: #98FB98;
+    grid-area: nav; 
+    }
+  #siteAds { 
+    background-color: #DDA0DD;
+    grid-area: ads; 
+    } 
+  
