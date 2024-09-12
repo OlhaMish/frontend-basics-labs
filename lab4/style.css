@@ -1,0 +1,10 @@
+.active_1 {
+    background-color: rgb(150, 255, 200); /* зелений */
+    color: rgb(150, 0, 50); /* червоний */
+}
+
+.active_2 {
+    background-color: rgb(150, 150, 255); /* синій */
+    color: rgb(255, 255, 0); /* жовтий */
+}
+ 
