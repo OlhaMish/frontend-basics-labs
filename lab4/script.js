@@ -20,3 +20,36 @@ secondItem.addEventListener('click', function() {
     toggleBackground(this, 'rgb(150, 150, 255)', 'rgb(150, 255, 200)', 'active_2', 'active_1');
 });
 
+
+function addImage() {
+    let imageElement = document.getElementById("image");
+    if (!imageElement) {
+      let newImage = document.createElement("img");
+      newImage.id = "image";
+      newImage.src = "./images/berlin.jpg";
+      newImage.alt = "Berlin";
+      newImage.width = 600;
+      document.body.appendChild(newImage);
+    }
+  }
+  
+  function increaseImage() {
+    let imageElement = document.getElementById("image");
+    if (imageElement) {
+      imageElement.width += 50;
+    }
+  }
+  
+  function decreaseImage() {
+    let imageElement = document.getElementById("image");
+    if (imageElement && imageElement.width > 50) {
+      imageElement.width -= 50;
+    }
+  }
+  
+  function removeImage() {
+    let imageElement = document.getElementById("image");
+    if (imageElement) {
+      imageElement.remove();
+    }
+  }
