@@ -72,27 +72,31 @@ for (let i = 0; i < 6; i++) {
 }
 
 const ninthCell = tableBody.rows[1].cells[2];
+let clickTimeout;
+let isDoubleClick = false;
 
 ninthCell.addEventListener('mouseover', () => {
   const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
   ninthCell.style.backgroundColor = randomColor;
 });
 
-ninthCell.addEventListener('click', function() {
-  colorPicker.click();
+ninthCell.addEventListener('click', function () {
+  clickTimeout = setTimeout(() => {
+    if (!isDoubleClick) { 
+      console.log("Single Click Fire");
+      colorPicker.click(); 
+    }
+    isDoubleClick = false;
+  }, 250);
 });
 
-colorPicker.addEventListener('input', (e) => {
-  ninthCell.style.backgroundColor = e.target.value;
-});
+ninthCell.addEventListener('dblclick', function () {
+  clearTimeout(clickTimeout);
 
+  isDoubleClick = true;
 
-ninthCell.addEventListener('dblclick', function() {
-  clearTimeout(timeoutId);
-	clearTimeout(timeoutId - 1);
-  const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+  const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   ninthCell.style.backgroundColor = randomColor;
   tableBody.rows[3].cells[2].style.backgroundColor = randomColor;
   tableBody.rows[5].cells[2].style.backgroundColor = randomColor;
 });
-
