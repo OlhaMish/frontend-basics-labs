@@ -52,3 +52,37 @@ function validateForm() {
         alert("Check the correctness of the data!");
     }
 }
+
+
+const tableBody = document.querySelector('#numberTable tbody');
+const colorPalette = document.getElementById('colorPalette');
+const colorPicker = document.getElementById('colorPicker');
+
+let counter = 1;
+
+for (let i = 0; i < 6; i++) {
+  const row = document.createElement('tr');
+  for (let j = 0; j < 6; j++) {
+    const cell = document.createElement('td');
+    cell.textContent = counter;
+    row.appendChild(cell);
+    counter++;
+  }
+  tableBody.appendChild(row);
+}
+
+const ninthCell = tableBody.rows[1].cells[2];
+
+ninthCell.addEventListener('mouseover', () => {
+  const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+  ninthCell.style.backgroundColor = randomColor;
+});
+
+ninthCell.addEventListener('click', function() {
+  colorPicker.click();
+});
+
+colorPicker.addEventListener('input', (e) => {
+  ninthCell.style.backgroundColor = e.target.value;
+});
+
