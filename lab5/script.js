@@ -59,10 +59,12 @@ const colorPalette = document.getElementById('colorPalette');
 const colorPicker = document.getElementById('colorPicker');
 
 let counter = 1;
+const rows = 6;
+const cols = 6;
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < rows; i++) {
   const row = document.createElement('tr');
-  for (let j = 0; j < 6; j++) {
+  for (let j = 0; j < cols; j++) {
     const cell = document.createElement('td');
     cell.textContent = counter;
     row.appendChild(cell);
@@ -71,13 +73,16 @@ for (let i = 0; i < 6; i++) {
   tableBody.appendChild(row);
 }
 
+function getRandomColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
+
 const ninthCell = tableBody.rows[1].cells[2];
 let clickTimeout;
 let isDoubleClick = false;
 
 ninthCell.addEventListener('mouseover', () => {
-  const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
-  ninthCell.style.backgroundColor = randomColor;
+  ninthCell.style.backgroundColor = getRandomColor();
 });
 
 ninthCell.addEventListener('click', function () {
@@ -92,13 +97,11 @@ ninthCell.addEventListener('click', function () {
 
 ninthCell.addEventListener('dblclick', function () {
   clearTimeout(clickTimeout);
-
   isDoubleClick = true;
 
-  const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-  ninthCell.style.backgroundColor = randomColor;
-  tableBody.rows[3].cells[2].style.backgroundColor = randomColor;
-  tableBody.rows[5].cells[2].style.backgroundColor = randomColor;
+  const randomColor = getRandomColor();
+  const cellsToChange = [ninthCell, tableBody.rows[3].cells[2], tableBody.rows[5].cells[2]];
+  cellsToChange.forEach(cell => cell.style.backgroundColor = randomColor);
 });
 
 colorPicker.addEventListener('input', (e) => {
