@@ -86,3 +86,13 @@ colorPicker.addEventListener('input', (e) => {
   ninthCell.style.backgroundColor = e.target.value;
 });
 
+
+ninthCell.addEventListener('dblclick', function() {
+  clearTimeout(timeoutId);
+	clearTimeout(timeoutId - 1);
+  const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+  ninthCell.style.backgroundColor = randomColor;
+  tableBody.rows[3].cells[2].style.backgroundColor = randomColor;
+  tableBody.rows[5].cells[2].style.backgroundColor = randomColor;
+});
+
