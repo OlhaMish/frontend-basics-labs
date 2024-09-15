@@ -100,3 +100,7 @@ ninthCell.addEventListener('dblclick', function () {
   tableBody.rows[3].cells[2].style.backgroundColor = randomColor;
   tableBody.rows[5].cells[2].style.backgroundColor = randomColor;
 });
+
+colorPicker.addEventListener('input', (e) => {
+  ninthCell.style.backgroundColor = e.target.value;
+});
