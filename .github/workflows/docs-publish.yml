@@ -3,7 +3,7 @@ run-name:
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   Publish-docs:
