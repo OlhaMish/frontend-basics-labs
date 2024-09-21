@@ -20,6 +20,7 @@ jobs:
           cd lab7
           npm install
           npm run build
+          serve -s build
           mv ./build ../full_build/lab7
       - name: Publish build to gh-pages
         uses: peaceiris/actions-gh-pages@v3.9.3
