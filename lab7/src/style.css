@@ -40,3 +40,22 @@ button {
   }
 
 
+  nav ul {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #90b9eb;
+    margin: -9px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  
