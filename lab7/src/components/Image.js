@@ -1,5 +1,5 @@
 import React from "react";
-import berlin from "../img/berlin.jpg"
+import berlin from "../assets/img/berlin.jpg"
 
 const Image = ({ img, increaseSize, decreaseSize, removeImage }) => {
   return (
