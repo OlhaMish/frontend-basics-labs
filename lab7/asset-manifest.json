@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.758ca3db.css",
-    "main.js": "./static/js/main.8fada8f9.js",
+    "main.js": "./static/js/main.7b65fb40.js",
     "static/media/berlin.jpg": "./static/media/berlin.7e7f82561c81b0b4fc13.jpg",
     "static/media/OneHundredYearsOfSolitude.jpg": "./static/media/OneHundredYearsOfSolitude.6bead0e995ecb346de03.jpg",
     "static/media/TheCatcherInTheRye.jpg": "./static/media/TheCatcherInTheRye.0df1971ae355c4679fb5.jpg",
@@ -13,10 +13,10 @@
     "static/media/MemoirsOfAGeisha.jpg": "./static/media/MemoirsOfAGeisha.c531ee3df9cf509e7f66.jpg",
     "index.html": "./index.html",
     "main.758ca3db.css.map": "./static/css/main.758ca3db.css.map",
-    "main.8fada8f9.js.map": "./static/js/main.8fada8f9.js.map"
+    "main.7b65fb40.js.map": "./static/js/main.7b65fb40.js.map"
   },
   "entrypoints": [
     "static/css/main.758ca3db.css",
-    "static/js/main.8fada8f9.js"
+    "static/js/main.7b65fb40.js"
   ]
 }
