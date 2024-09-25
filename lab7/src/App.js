@@ -12,20 +12,20 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Головна сторінка</Link> 
+              <Link to="/main">Головна сторінка</Link> 
             </li>
             <li>
-              <Link to="/gallery">Галерея товарів</Link>
+              <Link to="./main/gallery">Галерея товарів</Link>
             </li>
           </ul>
         </nav>
 
         <Routes>
           <Route 
-            path="/" 
+            path="/main" 
             element={<> <Header /> <Content /> </>} 
           />
-          <Route path="/gallery" element={<GoodsGallery />} />
+          <Route path="/main/gallery" element={<GoodsGallery />} />
         </Routes>
       </div>
     </Router>
