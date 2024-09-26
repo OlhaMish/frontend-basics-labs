@@ -11,8 +11,8 @@ const App = () => {
     <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<> <Header /> <Content /> </>} />
-        <Route path="/gallery" element={<GoodsGallery />} />
+        <Route path="/lab7" element={<> <Header /> <Content /> </>} />
+        <Route path="/lab7/gallery" element={<GoodsGallery />} />
       </Routes>
     </HashRouter>
   );
