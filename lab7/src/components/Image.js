@@ -4,7 +4,7 @@ import berlin from "../assets/img/berlin.jpg"
 const Image = ({ img, increaseSize, decreaseSize, removeImage }) => {
   return (
     <div>
-      <a href="./berlin" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.berlin.de/en/" target="_blank" rel="noopener noreferrer">
         <img src={berlin} alt="Berlin" width={img.size} />
       </a>
       <div>
