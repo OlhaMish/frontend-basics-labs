@@ -64,6 +64,15 @@ class Content extends Component {
 
     return (
       <div>
+        <p>Was born in Lutsk on February 14, 2005.</p>
+        <p>Studied at school number 5 in Lutsk, now studies at KPI</p>
+        <p>My hobbies:</p>
+        <ul>
+          <li>Playing piano</li>
+          <li>Reading books</li>
+          <li>Swimming</li>
+        </ul>
+        <p>My favourite books:</p>
         <ol>
           <li
             id="element1"
