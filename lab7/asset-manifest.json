@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend-basics-labs/lab7/static/css/main.758ca3db.css",
-    "main.js": "/frontend-basics-labs/lab7/static/js/main.fcabc08c.js",
+    "main.js": "/frontend-basics-labs/lab7/static/js/main.31207069.js",
     "static/media/berlin.jpg": "/frontend-basics-labs/lab7/static/media/berlin.7e7f82561c81b0b4fc13.jpg",
     "static/media/OneHundredYearsOfSolitude.jpg": "/frontend-basics-labs/lab7/static/media/OneHundredYearsOfSolitude.6bead0e995ecb346de03.jpg",
     "static/media/TheCatcherInTheRye.jpg": "/frontend-basics-labs/lab7/static/media/TheCatcherInTheRye.0df1971ae355c4679fb5.jpg",
@@ -13,10 +13,10 @@
     "static/media/MemoirsOfAGeisha.jpg": "/frontend-basics-labs/lab7/static/media/MemoirsOfAGeisha.c531ee3df9cf509e7f66.jpg",
     "index.html": "/frontend-basics-labs/lab7/index.html",
     "main.758ca3db.css.map": "/frontend-basics-labs/lab7/static/css/main.758ca3db.css.map",
-    "main.fcabc08c.js.map": "/frontend-basics-labs/lab7/static/js/main.fcabc08c.js.map"
+    "main.31207069.js.map": "/frontend-basics-labs/lab7/static/js/main.31207069.js.map"
   },
   "entrypoints": [
     "static/css/main.758ca3db.css",
-    "static/js/main.fcabc08c.js"
+    "static/js/main.31207069.js"
   ]
 }
