@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/frontend-basics-labs/static/css/main.758ca3db.css",
-    "main.js": "/frontend-basics-labs/static/js/main.2e494387.js",
-    "static/media/berlin.jpg": "/frontend-basics-labs/static/media/berlin.7e7f82561c81b0b4fc13.jpg",
-    "static/media/OneHundredYearsOfSolitude.jpg": "/frontend-basics-labs/static/media/OneHundredYearsOfSolitude.6bead0e995ecb346de03.jpg",
-    "static/media/TheCatcherInTheRye.jpg": "/frontend-basics-labs/static/media/TheCatcherInTheRye.0df1971ae355c4679fb5.jpg",
-    "static/media/FlowersForAlgernon.jpg": "/frontend-basics-labs/static/media/FlowersForAlgernon.101c17ec967254171759.jpg",
-    "static/media/ToKillAMockingbird.jpg": "/frontend-basics-labs/static/media/ToKillAMockingbird.82c3fd47642ed5ba65a5.jpg",
-    "static/media/Pachinko.jpg": "/frontend-basics-labs/static/media/Pachinko.3a1a63781f7f22d57d56.jpg",
-    "static/media/TheHitchhikersGuidetotheGalaxy.jpg": "/frontend-basics-labs/static/media/TheHitchhikersGuidetotheGalaxy.48547d5416736401bf11.jpg",
-    "static/media/NeverLetMeGo.jpg": "/frontend-basics-labs/static/media/NeverLetMeGo.0610a31dfa200725db61.jpg",
-    "static/media/MemoirsOfAGeisha.jpg": "/frontend-basics-labs/static/media/MemoirsOfAGeisha.c531ee3df9cf509e7f66.jpg",
-    "index.html": "/frontend-basics-labs/index.html",
-    "main.758ca3db.css.map": "/frontend-basics-labs/static/css/main.758ca3db.css.map",
-    "main.2e494387.js.map": "/frontend-basics-labs/static/js/main.2e494387.js.map"
+    "main.css": "/frontend-basics-labs/lab7/static/css/main.758ca3db.css",
+    "main.js": "/frontend-basics-labs/lab7/static/js/main.5edf815e.js",
+    "static/media/berlin.jpg": "/frontend-basics-labs/lab7/static/media/berlin.7e7f82561c81b0b4fc13.jpg",
+    "static/media/OneHundredYearsOfSolitude.jpg": "/frontend-basics-labs/lab7/static/media/OneHundredYearsOfSolitude.6bead0e995ecb346de03.jpg",
+    "static/media/TheCatcherInTheRye.jpg": "/frontend-basics-labs/lab7/static/media/TheCatcherInTheRye.0df1971ae355c4679fb5.jpg",
+    "static/media/FlowersForAlgernon.jpg": "/frontend-basics-labs/lab7/static/media/FlowersForAlgernon.101c17ec967254171759.jpg",
+    "static/media/ToKillAMockingbird.jpg": "/frontend-basics-labs/lab7/static/media/ToKillAMockingbird.82c3fd47642ed5ba65a5.jpg",
+    "static/media/Pachinko.jpg": "/frontend-basics-labs/lab7/static/media/Pachinko.3a1a63781f7f22d57d56.jpg",
+    "static/media/TheHitchhikersGuidetotheGalaxy.jpg": "/frontend-basics-labs/lab7/static/media/TheHitchhikersGuidetotheGalaxy.48547d5416736401bf11.jpg",
+    "static/media/NeverLetMeGo.jpg": "/frontend-basics-labs/lab7/static/media/NeverLetMeGo.0610a31dfa200725db61.jpg",
+    "static/media/MemoirsOfAGeisha.jpg": "/frontend-basics-labs/lab7/static/media/MemoirsOfAGeisha.c531ee3df9cf509e7f66.jpg",
+    "index.html": "/frontend-basics-labs/lab7/index.html",
+    "main.758ca3db.css.map": "/frontend-basics-labs/lab7/static/css/main.758ca3db.css.map",
+    "main.5edf815e.js.map": "/frontend-basics-labs/lab7/static/js/main.5edf815e.js.map"
   },
   "entrypoints": [
     "static/css/main.758ca3db.css",
-    "static/js/main.2e494387.js"
+    "static/js/main.5edf815e.js"
   ]
 }
