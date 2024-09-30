@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '20.x'
       - run: mkdir full_build
-      - run: cp -r index.html lab1 lab2 lab3 lab4 lab5 lab6 full_build
+      - run: cp -r index.html lab1 lab2 lab3 lab4 lab5 lab6 lab8 full_build
       - run: |
           cd lab7
           npm install
